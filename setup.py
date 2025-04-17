@@ -15,7 +15,7 @@ def get_version(rel_path):
     raise RuntimeError("Unable to find version string.")
 
 setup(
-    name="nunpy",
+    name="nunpy-utils",
     version=get_version("nunpy/__init__.py"),
     author="Giacomo Nunziati",
     url="https://github.com/nunziati/nunpy",
